@@ -1,0 +1,15 @@
+.nav_link{
+    color:white;
+    font-size: 25px;
+    padding: 1.4vh 2.2vw;
+    border:1px solid transparent;
+    transition: border 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav_link:hover{
+    border:1px solid white;
+    border-radius: 100px;
+    box-sizing: border-box;
+}

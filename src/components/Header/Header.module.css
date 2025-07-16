@@ -1,3 +1,16 @@
 .header_logo{
-    width: 100vw;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header{
+    height:  12.5vh;
+    display: flex;
+    flex-direction: row;
+    margin: 0  7vw;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-syne);
 }
