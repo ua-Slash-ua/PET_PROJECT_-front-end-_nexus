@@ -10,7 +10,7 @@ export default function HeroBlock() {
                             <defs>
                                 <linearGradient id="paint0_linear_2009_1010" x1="426.158" y1="155.496" x2="-94.7213" y2="251.807" gradientUnits="userSpaceOnUse">
                                     <stop stopColor="#0147FF"/>
-                                    <stop offset="1" stop-color="#0147FF" stopOpacity="0"/>
+                                    <stop offset="1" stopColor="#0147FF" stopOpacity="0"/>
                                 </linearGradient>
                             </defs>
                         </svg>

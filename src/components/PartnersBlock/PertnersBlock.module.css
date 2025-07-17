@@ -1,0 +1,11 @@
+.section_partners{
+    width: 100%;
+    height: fit-content;
+}
+.section_partners ul{
+    display: flex;
+    flex-direction: row;
+    gap: 124px;
+    justify-content: space-between;
+    margin: 100px 130px;
+}
