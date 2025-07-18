@@ -1,4 +1,5 @@
 import styles from './ScheduleBlock.module.css'
+import BtnHero from "@/components/layouts/Buttons/BtnHero/BtnHero";
 
 export default function ScheduleBlock() {
     return (
@@ -53,6 +54,7 @@ export default function ScheduleBlock() {
                         </li>
                     </ul>
                     <footer className={styles.schedule_footer}>
+                        <BtnHero text={'View detailed schedule'} width ={600}/>
                     </footer>
                     <div className={styles.schedule_icon}>
                         <svg width="370" height="266" viewBox="0 0 370 266" fill="none" xmlns="http://www.w3.org/2000/svg">

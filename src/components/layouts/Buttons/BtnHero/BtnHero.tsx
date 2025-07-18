@@ -1,11 +1,12 @@
 import styles from "./BtnHero.module.css";
 type BtnProps = {
     text: string;
+    width: number;
 }
-export default function BtnHero({text}:BtnProps) {
+export default function BtnHero({text, width}:BtnProps) {
     return (
         <>
-            <div className={styles.btn_tickets}>
+            <div className={styles.btn_tickets} style={{width: width}}>
                 <span>{text}</span>
                 <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fillRule="evenodd" clipRule="evenodd"
