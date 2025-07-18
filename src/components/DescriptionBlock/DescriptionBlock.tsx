@@ -27,7 +27,7 @@ export default function DescriptionBlock() {
                             <ul>
                                 <li>
                                     <Image
-                                        src="/descriptions/Image (24).png"
+                                        src="/desc-block/Image (24).png"
                                         alt="photo-1"
                                         width={74}
                                         height={74}
@@ -35,7 +35,7 @@ export default function DescriptionBlock() {
                                 </li>
                                 <li>
                                     <Image
-                                        src="/descriptions/Image (23).png"
+                                        src="/desc-block/Image (23).png"
                                         alt="photo-2"
                                         width={74}
                                         height={74}
@@ -43,7 +43,7 @@ export default function DescriptionBlock() {
                                 </li>
                                 <li>
                                     <Image
-                                        src="/descriptions/Image (22).png"
+                                        src="/desc-block/Image (22).png"
                                         alt="photo-3"
                                         width={74}
                                         height={74}
@@ -51,7 +51,7 @@ export default function DescriptionBlock() {
                                 </li>
                                 <li>
                                     <Image
-                                        src="/descriptions/Image (25).png"
+                                        src="/desc-block/Image (25).png"
                                         alt="photo-4"
                                         width={74}
                                         height={74}

@@ -1,0 +1,17 @@
+.speakers_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 130px 100px 0 100px;
+    align-items: flex-start;
+}
+
+.speakers_header span:first-child {
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.speakers_header span:last-child {
+    padding-top: 21px;
+    font-size: 20px;
+}
