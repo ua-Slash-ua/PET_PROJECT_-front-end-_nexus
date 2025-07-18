@@ -1,0 +1,17 @@
+.btn_add_more{
+    width: 215px;
+    height: 74px;
+    border-radius: 100px;
+    border:1px solid white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    font-family: var(--font-syne);  
+}
+.btn_add_more span{
+    font-size: 20px;
+}

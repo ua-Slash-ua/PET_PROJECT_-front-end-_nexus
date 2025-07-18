@@ -1,6 +1,7 @@
 import styles from './SpeakersBlock.module.css'
 import {SpeakersData} from "@/data/speakers.data";
 import Image from "next/image";
+import BtnAddMore from "@/components/layouts/Buttons/BtnAddMore/BtnAddMore";
 
 export default function SpeakersBlock() {
     return (<>
@@ -53,9 +54,9 @@ export default function SpeakersBlock() {
                         </div>
                     )
                 ))}
-
-
             </div>
+            <div className={styles.speakers_btn}><BtnAddMore/></div>
+
         </section>
     </>)
 }
