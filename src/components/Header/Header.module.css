@@ -9,7 +9,7 @@
     height:  12.5vh;
     display: flex;
     flex-direction: row;
-    margin: 0  7vw;
+    margin: 0  100px;
     justify-content: space-between;
     align-items: center;
     font-family: var(--font-syne);
