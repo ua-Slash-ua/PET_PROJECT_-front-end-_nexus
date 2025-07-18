@@ -1,0 +1,12 @@
+.btn_tickets{
+    width: 334px;
+    height: 74px;
+    border-radius: 100px;
+    background: linear-gradient(60deg, rgba(1, 71, 255, 1), rgba(1, 71, 255, 0.2));
+
+    border: 1px solid black;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    gap: 1.4vh;
+}
