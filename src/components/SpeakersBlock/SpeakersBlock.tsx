@@ -1,5 +1,5 @@
 import styles from './SpeakersBlock.module.css'
-
+import Image from "next/image";
 export default function SpeakersBlock() {
     return (
         <>
@@ -26,9 +26,39 @@ export default function SpeakersBlock() {
                         <div className={styles.btn_img}>
                             <ul>
                                 <li>
-
+                                    <Image
+                                        src="/speakers/Image (24).png"
+                                        alt="photo-1"
+                                        width={74}
+                                        height={74}
+                                    />
+                                </li>
+                                <li>
+                                    <Image
+                                        src="/speakers/Image (23).png"
+                                        alt="photo-2"
+                                        width={74}
+                                        height={74}
+                                    />
+                                </li>
+                                <li>
+                                    <Image
+                                        src="/speakers/Image (22).png"
+                                        alt="photo-3"
+                                        width={74}
+                                        height={74}
+                                    />
+                                </li>
+                                <li>
+                                    <Image
+                                        src="/speakers/Image (25).png"
+                                        alt="photo-4"
+                                        width={74}
+                                        height={74}
+                                    />
                                 </li>
                             </ul>
+
                         </div>
                         <button className={styles.btn_add_more}>
                             <span>And more</span>

@@ -8,7 +8,6 @@
 }
 .speakers{
     width: 412px;
-    /*height: 100%;*/
     border-radius: 50px;
     background-color: #0147FF;
     padding: 50px 60px;
@@ -39,15 +38,17 @@
     width: 573px;
     display: flex;
     flex-direction: column;
-    height: fit-content;
+    height: 181px;
     padding: 60px 50px 50px 50px;
     background-color: #0147FF;
     border-radius: 50px;
     gap: 35px;
+
 }
 .networking{
     background-color: #DEDEE0;
     color: black;
+    height: 148px;
 }
 .btn_block{
     width: 100%;
@@ -55,6 +56,7 @@
     display: flex;
     justify-content: space-between;
     margin-top:170px;
+    position: relative;
 }
 .btn_add_more{
     width: 215px;
@@ -67,7 +69,28 @@
     justify-content:center;
     gap: 20px;
     background-color: rgba(255, 255, 255, 0);
+    color: white;
 }
 .btn_add_more span{
     font-size: 20px;
 }
+.btn_img ul {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+
+}
+.btn_img ul li:nth-child(1) {
+    transform: translateX(0px);
+}
+.btn_img ul li:nth-child(2) {
+    transform: translateX(-37px);
+}
+.btn_img ul li:nth-child(3) {
+    transform: translateX(-74px);
+}
+.btn_img ul li:nth-child(4) {
+    transform: translateX(-111px);
+}
+
+
