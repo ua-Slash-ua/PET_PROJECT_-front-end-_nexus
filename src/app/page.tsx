@@ -5,6 +5,7 @@ import ScheduleBlock from "@/components/ScheduleBlock/ScheduleBlock";
 import DescriptionBlock from "@/components/DescriptionBlock/DescriptionBlock";
 import SpeakersBlock from "@/components/SpeakersBlock/SpeakersBlock";
 import WhyAttendBlock from "@/components/WhyAttendBlock/WhyAttendBlock";
+import ReviewBlock from "@/components/ReviewBlock/ReviewBlock";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
           <ScheduleBlock/>
           <SpeakersBlock/>
           <WhyAttendBlock/>
+          <ReviewBlock/>
       </>
   );
 }

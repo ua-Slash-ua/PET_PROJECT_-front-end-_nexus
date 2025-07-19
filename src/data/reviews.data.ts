@@ -1,4 +1,4 @@
-export const review = [
+export const reviewData = [
     {
         id:0,
         name: 'Elena Rojas',
