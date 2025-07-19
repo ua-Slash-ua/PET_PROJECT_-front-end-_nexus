@@ -1,17 +1,19 @@
 'use client';
 import s from './ReviewBlock.module.css'
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation } from 'swiper/modules';
+import {Swiper, SwiperSlide} from 'swiper/react';
+import {Navigation} from 'swiper/modules';
 import {reviewData} from "@/data/reviews.data";
 
-import 'swiper/css';
-import 'swiper/css/navigation';
-export default function ReviewBlock(){
-    return(
+// import 'swiper/css';
+// import 'swiper/css/navigation';
+import Image from "next/image";
+
+export default function ReviewBlock() {
+    return (
         <>
             <section id='sponsors' className={s.section_review}>
                 <header className={s.review_header}>
-                    <span>What Past Attendees Say</span>
+                    <span >What Past Attendees Say</span>
 
                     <div className={s.arrows}>
                         <div className="swiper-button-prev">←</div>
@@ -24,10 +26,14 @@ export default function ReviewBlock(){
                         modules={[Navigation]}
                         slidesPerView={3}
                         centeredSlides={true}
-                        spaceBetween={30}
+                        spaceBetween={100}
+                        // initialSlide={2}
                         navigation={{
                             nextEl: '.swiper-button-next',
                             prevEl: '.swiper-button-prev',
+                        }}
+                        onSwiper={(swiper) => {
+                            swiper.slideToLoop(1); // або будь-який індекс, наприклад, 1 або 2
                         }}
                         loop={true}
                         className={s.swiper}
@@ -37,13 +43,33 @@ export default function ReviewBlock(){
                                 <SwiperSlide key={index}>
                                     <div className={s.review_item}>
                                         <div className={s.title}>
-                                            {review.title}
+                                            <span>
+                                               {review.title}
+                                            </span>
                                         </div>
                                         <div className={s.review}>
-                                            {review.review}
+                                            <span>
+                                                {review.review}
+                                            </span>
+
                                         </div>
                                         <div className={s.about}>
-
+                                            <div className={s.about_image}>
+                                                <Image
+                                                    src={review.photo}
+                                                    alt={review.name}
+                                                    width={50}
+                                                    height={50}
+                                                />
+                                            </div>
+                                            <div className={s.about_content}>
+                                            <span>
+                                                {review.name}
+                                            </span>
+                                            <span>
+                                                {review.position}
+                                            </span>
+                                            </div>
                                         </div>
                                     </div>
                                 </SwiperSlide>)
