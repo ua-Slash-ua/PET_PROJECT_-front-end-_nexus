@@ -1,0 +1,20 @@
+.section_why_attend{
+    font-family: var(--font-syne);
+}
+.why_attend_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 130px 100px 0 100px;
+    gap: 85px;
+}
+
+.why_attend_header span:first-child {
+    font-size: 100px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.why_attend_header span:last-child {
+    font-size: 20px;
+}

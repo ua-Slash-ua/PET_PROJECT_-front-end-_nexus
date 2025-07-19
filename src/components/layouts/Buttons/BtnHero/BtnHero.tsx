@@ -1,7 +1,7 @@
 import styles from "./BtnHero.module.css";
 type BtnProps = {
     text: string;
-    width: number;
+    width?: number;
 }
 export default function BtnHero({text, width}:BtnProps) {
     return (
