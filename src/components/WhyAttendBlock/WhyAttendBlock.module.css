@@ -18,3 +18,65 @@
 .why_attend_header span:last-child {
     font-size: 20px;
 }
+.why_attend_content{
+    width: 1240px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 110px 100px 166px;
+}
+.why_attend_item{
+    width: 500px;
+    height: 203px;
+    border-radius: 50px;
+    background-color: #1C1A1A;
+    padding: 40px 60px 46px 50px;
+    overflow: hidden;
+    position:relative;
+
+}
+.title{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    text-align: start;
+    text-transform: uppercase;
+}
+.why_attend_item div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 53px;
+    justify-content: space-between;
+}
+.why_attend_item div span{
+    margin-left: 280px;
+    display: block;
+    width: 220px;
+    height: 120px;
+    line-height: 30px;
+    resize: block;
+    font-size: 18px;
+}
+.number{
+    font-size: 300px;
+    background: linear-gradient(180deg, rgba(1, 71, 255, 1), rgba(0, 0, 0, 0.6));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    position: absolute;
+    top: 40px;
+    left: 15px;
+
+}
+.reverse .title{
+    text-align: end;
+}
+.reverse  div span{
+    margin-left: 0;
+}
+.reverse .number{
+    top: 30px;
+    left: 282px;
+}
