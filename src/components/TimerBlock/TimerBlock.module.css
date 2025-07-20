@@ -1,0 +1,29 @@
+.timer_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 130px 100px 0 100px;
+    align-items: flex-start;
+    font-family: var(--font-syne);
+    gap: 85px;
+}
+
+.timer_header span:first-child {
+    display: block;
+    width: 850px;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.timer_header span:last-child {
+    padding-top: 21px;
+    font-size: 20px;
+    width: 295px;
+}
+.timer_container{
+    display: flex;
+    flex-direction: row;
+    margin: 160px 100px 60px;
+    flex-wrap: wrap;
+    gap: 20px;
+}

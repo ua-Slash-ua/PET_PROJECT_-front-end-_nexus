@@ -6,6 +6,7 @@ import DescriptionBlock from "@/components/DescriptionBlock/DescriptionBlock";
 import SpeakersBlock from "@/components/SpeakersBlock/SpeakersBlock";
 import WhyAttendBlock from "@/components/WhyAttendBlock/WhyAttendBlock";
 import ReviewBlock from "@/components/ReviewBlock/ReviewBlock";
+import TimerBlock from "@/components/TimerBlock/TimerBlock";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
           <SpeakersBlock/>
           <WhyAttendBlock/>
           <ReviewBlock/>
+          <TimerBlock/>
       </>
   );
 }
