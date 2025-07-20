@@ -26,8 +26,8 @@ export default function ReviewBlock() {
                         modules={[Navigation]}
                         slidesPerView={3}
                         centeredSlides={true}
-                        spaceBetween={100}
-                        // initialSlide={2}
+                        spaceBetween={20}
+                        loop={true}
                         navigation={{
                             nextEl: '.swiper-button-next',
                             prevEl: '.swiper-button-prev',
@@ -35,7 +35,6 @@ export default function ReviewBlock() {
                         onSwiper={(swiper) => {
                             swiper.slideToLoop(1); // або будь-який індекс, наприклад, 1 або 2
                         }}
-                        loop={true}
                         className={s.swiper}
                     >
                         {

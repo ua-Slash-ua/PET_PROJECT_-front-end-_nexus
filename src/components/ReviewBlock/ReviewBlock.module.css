@@ -72,6 +72,7 @@
 
 
 :global(.swiper-slide-active) .review_item  {
+    display: block;
     background-color: #0147FF;
     z-index: 10;
     position: absolute;
@@ -79,6 +80,7 @@
 }
 
 :global(.swiper-slide-prev ) .review_item  {
+    display: block;
     background: linear-gradient( 90deg, rgba(26, 26, 26, 1), rgba(26, 26, 26, 0));
     z-index: 1;
     position: absolute;
@@ -87,6 +89,7 @@
 
 
 :global(.swiper-slide-next ) .review_item   {
+    display: block;
     background-color: white;
     z-index: 10;
     position: absolute;
@@ -98,6 +101,20 @@
     color: #000000;
 
 }
+
+:global(.swiper-wrapper) {
+    z-index: 100;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    /*gap: 20px;*/
+}
+
+:global(.swiper-slide) {
+    background-color: rgba(1, 71, 255, 0);
+    align-self: stretch;
+}
+
 
 :global(.swiper-button-next ),
 :global(.swiper-button-prev) {
@@ -118,19 +135,3 @@
     color: #000000;
     cursor: pointer;
 }
-
-:global(.swiper-wrapper) {
-    z-index: 100;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    /*gap: 20px;*/
-}
-
-:global(.swiper-slide) {
-    background-color: rgba(1, 71, 255, 0);
-    align-self: stretch;
-}
-
-
-
