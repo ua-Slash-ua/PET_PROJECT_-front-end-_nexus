@@ -1,10 +1,13 @@
+.section_timer{
+    font-family: var(--font-syne);
+}
 .timer_header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 130px 100px 0 100px;
     align-items: flex-start;
-    font-family: var(--font-syne);
+
     gap: 85px;
 }
 
@@ -20,10 +23,41 @@
     font-size: 20px;
     width: 295px;
 }
+
 .timer_container{
+    width: 1110px;
+    /*height: 1297px;*/
+    background-color: #1C1A1A;
+    margin: 90px 100px;
+    border-radius: 50px;
+    padding: 95px 0 80px 130px;
+    overflow: hidden;
+    position: relative;
+}
+.timer_con{
+    width: fit-content;
+
+}
+.timer_title{
+    font-size: 20px;
+}
+.timer_time{
+    font-size: 200px;
+    min-width: 700px;
+}
+.timer_description{
+    width: 100%;
     display: flex;
     flex-direction: row;
-    margin: 160px 100px 60px;
-    flex-wrap: wrap;
-    gap: 20px;
+    justify-content:  space-around;
+
+
+}
+.timer_description span{
+    font-size: 16px;
+}
+.timer_icon{
+    position: absolute;
+    left: 880px;
+    top: 150px;
 }
