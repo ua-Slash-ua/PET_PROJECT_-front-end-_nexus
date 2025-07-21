@@ -1,0 +1,44 @@
+.tariff_item{
+    width: 271px;
+    height: 364px;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 50px;
+    border: 1.5px solid white;
+    padding: 70px 60px 60px 60px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: all 0.3s ease;
+}
+.tariff_item h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+.tariff_item .price  {
+    position: absolute;
+    bottom: 178px;
+    font-weight: bold;
+    font-size: 50px;
+}
+.tariff_item p{
+    margin-top: 25px ;
+    font-size: 20px;
+}
+.tariff_item div{
+    position: absolute;
+    bottom: 60px;
+}
+.tariff_item:hover{
+    background: #0147FF;
+}
+.tariff_item:hover div{
+    background: #ffffff;
+    color: #000000;
+}
+.tariff_item:hover div svg path{
+    fill: black;
+}
+
+.tariff_item div:hover{
+    cursor: pointer;
+}

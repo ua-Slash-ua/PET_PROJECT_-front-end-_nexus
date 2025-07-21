@@ -7,6 +7,7 @@ import SpeakersBlock from "@/components/SpeakersBlock/SpeakersBlock";
 import WhyAttendBlock from "@/components/WhyAttendBlock/WhyAttendBlock";
 import ReviewBlock from "@/components/ReviewBlock/ReviewBlock";
 import TimerBlock from "@/components/TimerBlock/TimerBlock";
+import TariffBlock from "@/components/TariffBlock/TariffBlock";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
           <WhyAttendBlock/>
           <ReviewBlock/>
           <TimerBlock/>
+          <TariffBlock/>
       </>
   );
 }
