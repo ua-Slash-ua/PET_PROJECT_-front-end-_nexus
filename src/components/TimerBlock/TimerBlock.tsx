@@ -1,7 +1,6 @@
 'use client'
 import styles from './TimerBlock.module.css'
 import {useState, useEffect} from "react";
-import {length} from "@tailwindcss/postcss";
 function formatTime(ms: number): string {
     const totalSec = Math.floor(ms / 1000);
     let days = Math.floor(totalSec / (3600 * 24));
